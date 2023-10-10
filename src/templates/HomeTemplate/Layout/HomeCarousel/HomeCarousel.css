@@ -1,0 +1,28 @@
+/* CSS cho nút "Play" */
+.play-btn-carousel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  width: 82px;
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover state */
+.play-btn-carousel:hover {
+  background-color: rgba(255, 165, 0, 0.7); 
+}
+
+
+
+
+

@@ -1,0 +1,81 @@
+/* Định dạng tiêu đề */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Định dạng các trường input */
+input[type="text"],
+input[type="email"],
+input[type="name"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Định dạng liên kết "Đăng nhập" */
+.text_16 {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text_16:hover {
+    text-decoration: underline;
+}
+
+/* Định dạng thông báo lỗi */
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+/* Định dạng thông báo thành công */
+.success-message {
+    color: green;
+    font-size: 14px;
+}
+
+/* Định dạng logo và tiêu đề */
+.items-center {
+    margin-bottom: 30px;
+}
+
+.text-2xl {
+    font-size: 32px;
+}
+
+/* Định dạng mã nhóm */
+.text_11 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Định dạng tiêu đề các trường nhập */
+.text_8,
+.text_9,
+.text_13,
+.text-14 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Định dạng các trường nhập */
+.text-10 {
+    font-size: 16px;
+}
+
+/* Định dạng liên kết "Đăng nhập" dưới form */
+.text_16 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text_16:hover {
+    text-decoration: underline;
+}
