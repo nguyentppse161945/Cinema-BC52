@@ -1,0 +1,774 @@
+/* Định dạng cho phần Header */
+.header {
+  background-color: #fff;
+  color: white;
+  position: relative;
+  z-index: 999;
+  width: 100%;
+}
+
+.button_1 {
+  margin-left: 350px;
+}
+
+.button_1 button {
+  font-weight: bold;
+  padding: 9px 18px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: blue;
+}
+
+.header .nav-link {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.header__logo img {
+  margin-top: -5px;
+  transition: all 0.5s;
+  margin-right: 350px;
+  margin-left: 50px;
+  height: 56px;
+
+  margin-bottom: 0;
+}
+
+.header__nav ul {
+  margin-top: 16px;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+
+.header__nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.header__nav ul li::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-image: linear-gradient(to right, #fbbd61, #ec7532);
+  transform: translateX(-59px);
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.header__nav ul li:hover::after {
+  transform: translateX(0px);
+  background-image: linear-gradient(to right, #fbbd61, #ec7532);
+  opacity: 1;
+}
+
+
+
+/* Điều chỉnh kiểu hiển thị cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .header__logo {
+    margin-left: 0; /* Thay đổi lề trái cho logo */
+  }
+
+  .navbar-collapse {
+    background-color: #fff; /* Đổi màu nền menu cho màn hình nhỏ */
+  }
+}
+
+
+
+/* Tar menu */
+
+/* CSS cho các MenuItem */
+.my-menu-item {
+  padding: 10px;
+  
+}
+
+
+.my-menu-item .anticon svg {
+  color: #ff9900;
+ 
+  margin-right: 10px;
+
+}
+
+.my-menu-item button {
+  background-color: transparent;
+  border: none;
+  color: #ff9900;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.my-menu-item button:hover {
+  text-decoration: underline;
+}
+
+.my-link {
+  color: #ff9900;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.my-link:hover {
+  text-decoration: underline;
+}
+
+
+
+.text-id {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+ 
+
+
+
+
+
+
+
+/* CSS cho button đặt vé */
+.ticket-button {
+  display: inline-block;
+  padding: 20px 30px; /* Điều chỉnh kích thước của button */
+  background-color: #007bff; /* Màu nền của button */
+  color: #fff; /* Màu chữ trên button */
+  border: none; /* Loại bỏ viền */
+  border-radius: 5px; /* Bo góc */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Hiệu ứng màu nền khi di chuột qua */
+  text-decoration: none; /* Loại bỏ gạch chân cho liên kết */
+  font-size: 25px;
+  /* Các hiệu ứng hover */
+}
+
+.ticket-button:hover {
+  background-color: #0056b3; /* Màu nền khi di chuột qua */
+}
+
+
+
+
+
+
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #ff9900;
+  box-shadow: 0 0 5px rgba(255, 153, 0, 0.5);
+}
+
+.login-btn {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+}
+
+.login-btn:hover {
+  background-color: #ff6600;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #ff9900;
+  font-weight: bold;
+}
+
+.forgot-password a:hover {
+  color: #ff6600;
+}
+
+.create-account {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.create-account a {
+  text-decoration: none;
+  color: #ff9900;
+  font-weight: bold;
+}
+
+.create-account a:hover {
+  color: #ff6600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Detail */
+
+.play-btn-detail {
+  position: absolute;
+  top: 52%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  width: 80px;
+  height: 82px;
+  padding-left: 1px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.play-btn-detail:hover {
+  background-color: rgba(255, 165, 0, 0.7); 
+}
+
+/* Style the play icon image */
+.play-btn-detail img {
+  width: 80px;
+  height: 80px;
+
+}
+
+
+.text_3 {
+  font-size: 30px;
+  /* color: #108f3e; */
+}
+
+.text_4 {
+  font-size: 18px;
+
+}
+
+
+
+
+/* Film  */
+/* CSS cho nút play */
+.play-btn {
+  transform: translate(100%, -780%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 10000;
+  transition: all 0.25s;
+}
+
+
+.film {
+  min-height: 500px;
+  transition: all 0.5s;
+}
+
+.film:hover .play-btn {
+  display: block;
+  transition: all 0.5s;
+}
+
+.film:hover .play-btn-detail {
+  display: block;
+  transition: all 0.5s;
+}
+
+.film:hover .btn-booking {
+  display: block;
+  transition: all 0.5s;
+}
+
+.film:hover .film-title {
+  display: none;
+  transition: all 0.5s;
+}
+
+.btn-booking {
+  width: 90%;
+  display: none;
+  margin-top: 19px;
+  margin-bottom: 20px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Home menu  */
+
+
+
+/* CSS cho Tabs */
+.container {
+  padding: 20px;
+}
+
+/* CSS cho hệ thống rạp */
+.ant-tabs-tab {
+  display: flex;
+  align-items: center;
+}
+
+/* CSS cho cum rạp */
+.ant-tabs-tabpane {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* CSS cho hình ảnh logo rạp */
+.ant-tabs-tab img {
+  max-width: 60px;
+  max-height: 60px;
+  border-radius: 50%;
+}
+
+/* CSS cho hình ảnh cụm rạp */
+.ant-tabs-tabpane img.rounded-lg {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 12px;
+}
+
+/* CSS cho tên cụm rạp */
+.text-left.ml-3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.text-lg {
+  font-size: 18px;
+}
+
+
+
+
+.text-gray-400 {
+  font-size: 14px;
+}
+
+
+
+
+.mua-ve:hover {
+  color: #f0ad4e;
+
+}
+
+/* CSS cho danh sách phim */
+.ant-tabs-tabpane {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  max-height: 550px;
+  overflow-y: auto;
+}
+
+.mua-ve {
+  float: left;
+  width: 100px;
+  font-family: "SF Medium";
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 10px 10px 0;
+  padding: 5px 0;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: rgba(246, 246, 246, 0.5);
+  border-radius: 7px;
+  color: #108f3e;
+  border: 1px solid #e4e4e4;
+  font-weight: bold;
+}
+
+
+.text_1 {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  margin-right: 5px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+
+.text_2 {
+  background-color: #ffc107;
+  margin: 5px;
+  color: #fff;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.text-id2 {
+  color: #45a049;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.text-id1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* End Film  */
+
+/* Check out  */
+.ghe {
+  /* ghế thường */
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  background-color: rgb(123, 122, 122);
+  color: #fff;
+}
+
+.gheDaDat {
+  background-color: rgb(232, 76, 76);
+  cursor: no-drop;
+}
+
+.gheDangDat {
+  background-color: rgb(94, 206, 94) !important;
+}
+
+.gheKhachDangDat {
+  background-color: rgb(226, 19, 185) !important;
+  cursor: no-drop;
+}
+
+.gheVip {
+  background-color: rgb(228, 74, 8);
+}
+
+.gheDaDuocDat {
+  /*ghế được chính mình đặt */
+  background-color: rgb(246, 246, 246);
+  -webkit-box-shadow: -1px 2px 18px -6px orange;
+  box-shadow: -1px 2px 18px -6px orange;
+  color: orange !important;
+  border: 1px solid orange;
+}
+
+/* End Check Out */
+
+/* Modal  */
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal.enter-done {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+.modal.exit {
+  opacity: 0;
+}
+
+.modal-content {
+  width: 1000px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-200px);
+}
+
+.modal.enter-done .modal-content {
+  transform: translateY(0);
+}
+
+.modal.exit .modal-content {
+  transform: translateY(-200px);
+}
+
+.modal-header,
+.modal-footer {
+  padding: 10px;
+}
+
+.modal-title {
+  margin: 0;
+}
+
+.modal-body {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+/* End Modal  */
+
+
+
+
+
+
+
+
+/* News */
+
+
+
+.readmore .button.active {
+  background-image: linear-gradient(to right, #fbbd61, #ec7532);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px !important;
+}
+
+.readmore .button {
+  color: #ec7532;
+}
+
+.readmore .button:hover {
+  color: #ec7532;
+}
+
+.readmore__img img {
+  height: 300px;
+}
+
+.readmore__img a {
+  color: black;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+
+.readmore__img a:hover {
+  color: #ec7532;
+}
+
+.readmore__img p {
+  font-size: 13px;
+}
+
+.readmore__img p.icon {
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+}
+
+.readmore__img p.icon img {
+  height: 15px;
+}
+
+.readmore__special img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.readmore__special a {
+  display: block;
+  font-size: 13px;
+  padding-left: 5px;
+  width: 80%;
+  color: black;
+  transition: all 0.3s;
+}
+
+.readmore__special a:hover {
+  color: #ec7532;
+}
+
+@media screen and (max-width: 992px) {
+  .readmore__special a {
+    width: 70%;
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .readmore__special {
+    margin: 0 15px !important;
+  }
+}
+
+.readmore__bot a {
+  font-size: 16px;
+}
+
+.readmore__bot img:first-child {
+  width: 100%;
+}
+
+.readmore__bot img {
+  height: 220px;
+}
+
+.readmore__button {
+  border: 2px solid #949494;
+  color: #949494;
+  padding: 7px 25px;
+  transition: all 0.2s;
+  text-align: center;
+  outline: none;
+}
+
+.readmore__button:hover {
+  background-color: #fb4226;
+  border-color: #fb4226;
+  color: #fff !important;
+}
+
+.readmore__button:focus {
+  box-shadow: none;
+}
+
+.tab-content {
+  margin-bottom: 50px;
+}
+
+
+.nav-item a {
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS cho trang đăng nhập */
+
+/* Phần tử icon */
+.icon-sign svg {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Phần tử input */
+.text-6,
+.text-7 {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Nút Đăng nhập */
+.bg-1 {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-weight: 500;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bg-1:hover {
+  background-color: #45a049;
+}
+
+/* Phần tử Quên mật khẩu và Đăng ký */
+.text-xs {
+  font-size: 14px;
+  color: #4caf50;
+}
+
+.text-xs:hover {
+  text-decoration: underline;
+}

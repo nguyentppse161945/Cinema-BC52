@@ -1,0 +1,80 @@
+.ads {
+  background: url("./background.jpg");
+  padding: 60px 0;
+  width: 100%;
+}
+
+.slick-slide img {
+  display: block;
+  width: 50%;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.ads_text {
+  font-size: 25px;
+}
+
+.col-span-4.col-start-3.text-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button.btnDownload {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.footer__info {
+  background-color: #101010;
+  color: gray;
+  padding: 50px 0;
+}
+.footer__info .info__top h4 {
+  font-size: 20px;
+  padding-bottom: 15px;
+  color: white;
+}
+.footer__info .info__top p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer__info .info__top p span {
+  padding-right: 30px;
+  transition: all 0.5s;
+}
+.footer__info .info__top p span:hover {
+  color: white;
+}
+.footer__info .info__top .icon_1 img {
+  border-radius: 50%;
+  background-color: white;
+}
+.footer__info .info__top .icon i {
+  padding: 0 15px;
+  font-size: 30px;
+  transition: all 0.5s;
+}
+.footer__info .info__top .icon i:hover {
+  color: white;
+}
+.footer__info .info__bottom {
+  margin-top: 50px;
+  border-top: 1px solid gray;
+  padding-top: 20px;
+}
+.footer__info .info__bottom h4 {
+  font-size: 16px;
+  padding-bottom: 15px;
+  color: white;
+}
+.footer__info .info__bottom p {
+  font-size: 13px;
+  font-weight: bold;
+}
+.footer__info .info__bottom img {
+  width: 55%;
+}/*# sourceMappingURL=Ads.css.map */
